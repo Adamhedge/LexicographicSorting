@@ -11,13 +11,13 @@ Where the corresponding numbers are the order in which they appear
 in the order string.
 
 To compare two strings against the order, you iterate through each 
-character, identifying the first character whose order is greater
-than the opposing string.  This string is 'greater than' the other
+character, identifying the first character whose order # is greater
+than the opposing string.  That string is 'greater than' the other
 string by definition of Javascript's array sorting algorithm.
 
 Special cases include 
 1. Empty strings, which are always first in ordering
-2. Strings of opposing length.  The longer string will
+2. Strings of differing length.  The longer string will
    be considered 'greater than' if the characters in 
    the shorter string match their corresponding characters
    in the longer string.
